@@ -1,0 +1,13 @@
+interface:
+  display_name: 开题答辩PPT制作
+  short_description: 保留封面目录，内置8张可编辑正文备选页与17种组织方式，标明文章出处并附学术讲稿
+  default_prompt: 使用 $create-proposal-slides，保留现有模板的封面、目录与整体样式，根据报告选用合适的小板块组织方式；现状按大类同页并标文章出处，背景图位不少于标准模板，备注先写连贯的学术演讲稿，后附来源。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
